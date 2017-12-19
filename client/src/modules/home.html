@@ -1,6 +1,11 @@
 <template>
-    
-   <!-- <h1>${message}</h1> -->
+     
+        <style>
+                body {
+                    background-color: coral;
+                }
+                </style>
+    <h1>${message}</h1> 
     <compose show.bind="showLogin" view="./components/login.html"></compose>
     <compose show.bind="!showLogin" view="./components/register.html"></compose>
 
